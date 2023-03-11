@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+
+<style>
+    body {
+        background-color: #F8AB59;
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<div class="menu">
+    <a href="index.html">Home</a>
+    
+    
+    <a href="ppl.html">Procedural programming languages</a>
+    <a href="fpl.html">Functional programming languages </a>
+   <a href="oop.html">Object-oriented programming languages</a>
+    <a href="sl.html">Scripting languages</a>
+   <a href="lpl.html">Logic programming languages</a>
+    <a href="contact.html">Contact➜</a>
+    
+</div>
+
+
+
+<center><h1 style="background-color:grey";>𝕷𝖎𝖇𝖗𝖆𝖗𝖞 𝕸𝖆𝖓𝖆𝖌𝖊𝖒𝖊𝖓𝖙 𝕾𝖞𝖘𝖙𝖊𝖒</h1>
+
+
+<h2>𝐋𝐨𝐠𝐢𝐜  𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐥𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬</h2>
+
+
+
+
+<a href="https://en.wikipedia.org/wiki/Prolog"target="_blank">
+<img src="prolog.jpg"style="float:left""width="100" height="200">
+</a>
+
+<p>Prolog is a logic programming language associated with artificial intelligence and computational linguistics.[1][2][3]
+
+Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.[4]
+
+The language was developed and implemented in Marseille, France, in 1972 by Alain Colmerauer with Philippe Roussel, based on Robert Kowalski's procedural interpretation of Horn clauses at University of Edinburgh.[5][6][7]
+
+Prolog was one of the first logic programming languages[8] and remains the most popular such language today, with several free and commercial implementations available. The language has been used for theorem proving,[9] expert systems,[10] term rewriting,[11] type systems,[12] and automated planning,[13] as well as its original intended field of use, natural language processing.[14][15] Modern Prolog environments support the creation of graphical user interfaces, as well as administrative and networked applications.
+
+Prolog is well-suited for specific tasks that benefit from rule-based logical queries such as searching databases, voice control systems, <a href="https://en.wikipedia.org/wiki/Prolog";> 𝐑𝐞𝐚𝐝 𝐦𝐨𝐫𝐞..</a></h1>
+<a target="_blank" href="https://www.amazon.in/Programming-Prolog-Clocksin/dp/8185198152/ref=sr_1_3?crid=2GOI5MBDZJ0IM&keywords=prolog+programming+book&qid=1678288773&sprefix=prolog+programmn+book%2Caps%2C248&sr=8-3"><h4 style="text-align:left;">buy  Prolog at Amazon</br></h4>
+
+
+ </div>
+<a href="https://en.wikipedia.org/wiki/Datalog"target="_blank">
+<img src="datalog.jpeg"style="float:left""width="100" height="200">
+</a>
+
+<p>
+Datalog is a declarative logic programming language. While it is syntactically a subset of Prolog, Datalog generally uses a bottom-up rather than top-down evaluation model. This difference yields significantly different behavior and properties from Prolog. It is often used as a query language for deductive databases. Datalog has been applied to problems in data integration, networking, program analysis, and more.Example
+A Datalog program consists of facts, which are statements that are held to be true, and rules, which say how to deduce new facts from known facts. For example, here are two facts that mean xerces is a parent of brooke and brooke is a parent of damocles:
+
+parent(xerces, brooke).
+parent(brooke, damocles).
+The names are written in lowercase because strings beginning with an uppercase letter stand for variables. Here are two rules:
+
+ancestor(X, Y) :- parent(X, Y).
+ancestor(X, Y) :- parent(X, Z), ancestor(Z, Y).
+The :- symbol is read as "if", and the comma is read "and", so these rules mean:
+
+X is an ancestor of Y if X is a parent of Y.
+X is an ancestor of Y if X is a parent of some Z, and Z is an ancestor of Y.
+The meaning of a program is defined to be the set of all of the facts that can be deduced using the initial facts and the rules. This program's meaning is given by the following facts:
+
+parent(xerces, brooke).
+parent(brooke, damocles). <a href="https://en.wikipedia.org/wiki/Datalog";> 𝐑𝐞𝐚𝐝 𝐦𝐨𝐫𝐞..</a></h1>
+<a target="_blank" href="https://www.amazon.in/Datalog-Reloaded-International-Workshop-Selected/dp/3642242057/ref=sr_1_1?crid=OLQYKL5PH5QZ&keywords=datalog&qid=1678324931&sprefix=datalog%2Caps%2C197&sr=8-1"><h4 style="text-align:left;">buy Datalog at Amazon</br></h4> 
+</div>
+</a>
+
+     
+         <p class="copyright">
+            Copyright@2023 library Management System. All rights reseved
+        </p><br>
+
+</html>
+    
+   
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .menu {
+        display: flex;
+        gap: 1rem;
+        justify-content: left;
+    }
+
+    .menu > a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu > a::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 0%;
+        transition: all .4s;
+        border-bottom: 2px solid black;
+    }
+
+    .menu > a:hover::after {
+        width: 100%;
+    }
+h2{text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+.column, row {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
